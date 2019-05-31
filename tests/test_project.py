@@ -24,4 +24,3 @@ class TestProject(common.TransactionCase):
         self.assertEqual(test_project_task.project_id.id, test_project.id)
         # Do a little print to show it visually for this demo -
         # in production you don't really need this.
-        print('Your test was successful!')
