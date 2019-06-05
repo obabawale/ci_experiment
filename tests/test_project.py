@@ -22,5 +22,3 @@ class TestProject(common.TransactionCase):
         self.assertEqual(test_project_task.name, 'ExampleTask')
         # Check if the project assigned to the task is in fact the correct id
         self.assertEqual(test_project_task.project_id.id, test_project.id)
-        # Do a little print to show it visually for this demo -
-        # in production you don't really need this.
